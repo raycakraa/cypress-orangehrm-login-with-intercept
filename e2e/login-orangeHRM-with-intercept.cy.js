@@ -1,7 +1,7 @@
     describe('Login Page OrangeHRM', () => {
         beforeEach(() => {
             cy.visit('https://opensource-demo.orangehrmlive.com/')
-            cy.wait(1000) // Biar semua element fully rendered
+            cy.wait(1000) 
         })
 
         it('should show username input field', () => {
